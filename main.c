@@ -11,6 +11,7 @@
  * версию CFW (адреса/сигнатуры функций могут отличаться).
  */
 
+#include <stdlib.h>
 #include <pspkernel.h>
 #include <pspdisplay.h>
 #include <pspsdk.h>
