@@ -125,7 +125,7 @@ static int sceDisplaySetFrameBuf_Patched(void *topaddr, int bufferwidth,
 
 /* ---------- Точки входа модуля ---------- */
 
-int module_start(SceSize args, void *argp)
+int main(int argc, char *argv[])
 {
     load_config();
 
